@@ -49,20 +49,20 @@
       				<artifactId>jacoco-maven-plugin</artifactId>
      				<version>0.8.7</version>
       				<executions>
-        				<execution>
-          				<goals>
-            					<goal>prepare-agent</goal>
-         	 			</goals>
-        				</execution>
-        			<execution>
-          				<phase>verify</phase>
-          				<goals>
-            					<goal>report</goal>
-          				</goals>
-        			</execution>
+        			  <execution>
+          			     <goals>
+            				<goal>prepare-agent</goal>
+         	 		     </goals>
+        			  </execution>
+        			  <execution>
+          			     <phase>verify</phase>
+          			     <goals>
+            				<goal>report</goal>
+          			     </goals>
+        			  </execution>
       				</executions>
-    				</plugin>
-			</plugins>
+    			</plugin>
+		</plugins>
 	</build>
 
 </project>
