@@ -37,14 +37,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<plugin>
-    				<groupId>org.codehaus.mojo</groupId>
-    				<artifactId>cobertura-maven-plugin</artifactId>
-    				<version>2.7</version>
-    				<configuration>
-        				<!-- Configurations for the report, like ignoring certain packages -->
-    				</configuration>
-			</plugin>
-			<plugin>
       				<groupId>org.jacoco</groupId>
       				<artifactId>jacoco-maven-plugin</artifactId>
      				<version>0.8.7</version>
